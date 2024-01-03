@@ -10,6 +10,7 @@ const Header = () => {
     <img class="Corner-Logo" src={image} alt="Logo" />
     <p class="Website-Title"> Alberta 2514640</p>
     <li><Link to="/">Home</Link></li>
+    <li><Link to="/work">Work</Link></li>
     </ul>
   </nav>
   );
