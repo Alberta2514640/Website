@@ -1,12 +1,18 @@
-import logo from './logo.png';
 import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1> Coming Soon</h1>
-        <img src={logo} alt="logo" className="fade-out-image" />
+        <Router>
+              <Header />
+              <Routes>
+                  <Route path="/" element={<Home />} />
+              </Routes>
+          </Router>
       </header>
     </div>
   );
