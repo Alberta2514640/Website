@@ -82,8 +82,6 @@ nav {
     font-size: 30px;
     font-weight: bold;
     color: #000000;
-    margin-right: 15px; /* Slightly increased margin for a cleaner look */
-    margin-left: 15px; /* Uniform margin for symmetry */
+    margin: 15px; /* Slightly increased margin for a cleaner look */
   }
-  
   

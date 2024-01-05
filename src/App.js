@@ -3,7 +3,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Work from './pages/Work';
 import Header from './components/Header/Header';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
 function App() {
   return (
     <div className="App">
@@ -15,6 +17,7 @@ function App() {
                   <Route path="/work" element={<Work />} />
               </Routes>
           </Router>
+          <ToastContainer />
       </header>
     </div>
   );
